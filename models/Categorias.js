@@ -22,6 +22,7 @@ const categoriasSchema = mongoose.Schema(
     timestamps: true,
   }
 );
+//g
 
 const Categoria = mongoose.model("Categoria", categoriasSchema);
 
